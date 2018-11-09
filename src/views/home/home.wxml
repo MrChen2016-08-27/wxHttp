@@ -1,0 +1,7 @@
+<!--src/views/home/home.wxml-->
+<view>
+    <view> 请求信息：</view>
+    <view wx:for="{{ strs }}" wx:key="{{ index }}">{{ item }}</view>
+    <button bind:tap="testGet" type="primary">测试请求</button>
+
+</view>
